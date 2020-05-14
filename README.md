@@ -3,7 +3,7 @@ This repo contains a `Jupyter Notebook` designed to follow a **Neural Style Tran
 
 This Algorithm was first proposed by Leon A. Getys, Alexander S. Ecker and Matthias Bethge in their paper called [**A Neural Algorithm of Artistic Style**](https://arxiv.org/pdf/1508.06576.pdf).
 
-This notebook was coded using Python 3.6, Tensorflow 2.2, and Google Colaboratory. The original code was provided as a Tensorflow tutorial and can be found [here](https://www.tensorflow.org/tutorials/generative/style_transfer) 
+This notebook was coded using Python 3.6, Tensorflow 2.2, and Google Colaboratory. The original code was provided as a Tensorflow tutorial and can be found [**here**](https://www.tensorflow.org/tutorials/generative/style_transfer) 
 
 Here is an example of what this is supposed to do. This example can be found in the original NST Algorithm paper.
 
