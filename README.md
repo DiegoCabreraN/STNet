@@ -1,12 +1,17 @@
 # Style Transfer Network
-This repo contains a `Jupyter Notebook` designed to follow a **Neural Style Transfer Algorithm**, whose purpose is to combine an image and a painting style in order to generate a new one with the original composition and a new style.
 
-This Algorithm was first proposed by Leon A. Getys, Alexander S. Ecker and Matthias Bethge in their paper called [**A Neural Algorithm of Artistic Style**](https://arxiv.org/pdf/1508.06576.pdf).
+This project contains a **Flask** Application to serve a Neural Style Transfer Model developed during a tutorial on Tensorflow's page.
 
-This notebook was coded using Python 3.6, Tensorflow 2.2, and Google Colaboratory. The original code was provided as a Tensorflow tutorial and can be found [**here**](https://www.tensorflow.org/tutorials/generative/style_transfer) 
+The purpose of this is to create a simplistic way to interact with the model.
 
-Here is an example of what this is supposed to do. This example can be found in the original NST Algorithm paper.
+In order to run this project you'll need to set up a Tensorflow v2.2.0 environment, if you want to speed up the project be sure to have installed the Cudnn, Cuda, and/or CudaToolkit. I highly recommend to set all of this inside an Anaconda environment, since they have the option to install cudnn and Cudatoolkit directly into anaconda without having to specify PATH variables.
 
-<div style="text-align:center">
-    <img src="https://lh3.googleusercontent.com/proxy/wE8KyLuFsDoJ3p8TMcxZHhAHENVq36KrNKdwOKgFHORMN4ibKEIbATJ2TK3sS06NLeE2ajaU3JKJ9ocIXMgu3jQZ9qbu" />
-</div
+You'll also need to install the following pip packages:
+
+    - Tensorflow
+    - Flask
+    - Numpy
+    - Pillow
+
+Finally, In the application you can upload your own Style and Content images, but they are required to be `.jpeg` files.
+Have fun testing the app. :D
