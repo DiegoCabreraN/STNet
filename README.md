@@ -1,6 +1,6 @@
 # Style Transfer Network
 
-This project contains a **Flask** Application to serve a Neural Style Transfer Model developed during a tutorial on Tensorflow's page. This project has a **Jupyter Notebook** with the Tensorflow tutorial step by step
+This project contains a **Flask** Application to serve a Neural Style Transfer Model developed during a tutorial on Tensorflow's page
 
 The purpose of this is to create a simplistic way to interact with the model.
 
