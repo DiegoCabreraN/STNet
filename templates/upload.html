@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/upload.css')}}">
+<title>Upload Zone!!</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="container-fluid">
+    <h1>UPLOAD ZONE!!!</h1>
+    <form method="post" enctype=multipart/form-data class="row">
+        <div class="col-6">
+            <h4>Select Content Image</h4>
+            <input type="file" name="content">
+        </div>
+        <div class="col-6">
+            <h4>Select Style Image</h4>
+            <input type="file" name="style">
+        </div>        
+        <input class="col-8 submit_btn" type="submit" value="Upload">
+    </form>
+</div>
+{% endblock %}

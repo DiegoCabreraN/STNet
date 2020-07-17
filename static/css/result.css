@@ -1,0 +1,16 @@
+h1{
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+}
+
+.result{
+    width: 50vw;
+}
+
+.result-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}

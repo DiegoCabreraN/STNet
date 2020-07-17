@@ -1,0 +1,19 @@
+.nav{
+    background-color: #485460 !important;
+    font-family: 'Quicksand';
+}
+
+.row{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 70%;
+    border-radius: 5000px;
+}
+
+.example{
+    width: 90%;
+}

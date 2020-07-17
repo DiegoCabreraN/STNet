@@ -1,0 +1,24 @@
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container-fluid{
+    height: 100vh;
+}
+
+h4{
+    margin-top: 4vh;
+    color:white;
+    text-align: center;
+}
+
+input{
+    margin-left: 44%;
+}
+
+.submit_btn{
+    margin-top: 5vh;
+    margin-left: 17%;
+}

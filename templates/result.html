@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/result.css')}}">
+<title>NST Playground</title>
+{% endblock %}
+
+
+{% block body %}
+<div class="container-fluid">
+    <h1>Here is your result!</h1>
+    <div class="result-container">
+        <img class="result" src="{{url_for('static',filename='result/result.jpeg')}}" alt="">
+    </div>
+    
+</div>
+{% endblock %}
